@@ -9,7 +9,7 @@ dotenv.config();
 const apiRoutes = require("./routes/apiRoutes");
 
 //MongoDB config
-require("./loaders/db");
+// require("./loaders/db");
 const app = express();
 
 app.use(bodyParser.json());
@@ -19,4 +19,6 @@ app.use(logger("dev"));
 
 app.use("/api", apiRoutes);
 
-app.listen(process.env.PORT);
+app.listen(process.env.PORT,()=>{
+    console.log("server is running and ");
+});
