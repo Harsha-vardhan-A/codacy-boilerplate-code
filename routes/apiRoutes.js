@@ -13,6 +13,8 @@ router.get("/", (req, res) => {
 
 router.post("/login", (req, res) => {
   console.log("logging");
+  console.log("you are login is successfull");
+  console.log("codacy sample code ");
   res.status(201).send({message:'successfully login'})
 });
 
