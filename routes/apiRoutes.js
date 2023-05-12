@@ -19,6 +19,7 @@ router.post("/login", (req, res) => {
   console.log("codacy sample code ");
   let a;
   a = "jkshrjkhjhw";
+  console.log(a);
   res.status(201).send({message:'successfully login'})
 });
 
