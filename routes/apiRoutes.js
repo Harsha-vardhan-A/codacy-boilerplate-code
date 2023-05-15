@@ -23,9 +23,7 @@ router.post("/login", (req, res) => {
   res.status(201).send({message:'successfully login'})
 });
 
-router.post("/register", async (req, res) => {
-
-});
+router.post("/register", async (req, res) => {});
 
 router.get("/user/:uid", auth.checkToken, (req, res) => {
 

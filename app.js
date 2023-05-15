@@ -19,6 +19,6 @@ app.use(logger("dev"));
 
 app.use("/api", apiRoutes);
 
-app.listen(process.env.PORT,()=>{
-    console.log("server is running and ");
+app.listen(process.env.PORT, () => {
+  console.log("server is running and ");
 });
