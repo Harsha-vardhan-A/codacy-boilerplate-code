@@ -22,10 +22,11 @@ router.post("/login", (req, res) => {
   // console.log(a);
   for(i=0;i<10;i++)
   {
-    for(j=0;j<=10;j++)
-    {
-      console.log("i+j",i=j)
-    }
+        for(j=0;j<=10;j++)
+        { 
+          if(i=>j)
+            console.log("i+j",i+j)
+        }
   }
   res.status(201).send({message:'successfully login'})
 });
