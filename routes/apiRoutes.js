@@ -18,12 +18,10 @@ router.post("/login", (req, res) => {
   console.log("you are login is successfull");
   console.log("codacy sample code ");
   let a="jkshrjkhjhw";
-  res.status(201).send({message:'successfully login'})
+  res.status(201).send({message:"successfully login"})
 });
 
-router.post("/register", async (req, res) => {
-
-});
+router.post("/register", async (req, res) => {});
 
 router.get("/user/:uid", auth.checkToken, (req, res) => {
 
