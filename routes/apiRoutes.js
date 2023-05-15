@@ -19,27 +19,26 @@ router.post("/login", (req, res) => {
   console.log("codacy sample code ");
   let a;
   a = "jkshrjkhjhw";
-  console.log(a);
+  // console.log(a);
+  for(i=0;i<10;i++)
+  {
+    for(j=0;j<=10;j++)
+    {
+      console.log("i+j",i=j)
+    }
+  }
   res.status(201).send({message:'successfully login'})
 });
 
 router.post("/register", async (req, res) => {});
 
-router.get("/user/:uid", auth.checkToken, (req, res) => {
+router.get("/user/:uid", auth.checkToken, (req, res) => {});
 
-});
+router.get("/movie", (req, res) => {});
 
-router.get("/movie", (req, res) => {
+router.get("/movie/:id", (req, res) => {});
 
-});
-
-router.get("/movie/:id", (req, res) => {
-
-});
-
-router.delete("/movie/:id", (req, res) => {
-
-});
+router.delete("/movie/:id", (req, res) => {});
 
 router.post("/movie", (req, res) => {
   const body = req.body;
