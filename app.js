@@ -22,3 +22,9 @@ app.use("/api", apiRoutes);
 app.listen(process.env.PORT, () => {
   console.log("server is running and ");
 });
+
+router.get("/", (req, res) => {
+  res.status(201).json({
+    message: "Welcome to the API.",
+  });
+});
