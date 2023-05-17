@@ -30,7 +30,34 @@ router.get("/", (req, res) => {
 });
 function fun1(){
   var a;
-  console.log(a);
+  if(true){
+    console.log(a);
+    console.log(a);
+    console.log(a);
+    console.log(a);
+
+  }
+  if(true){
+    console.log(a);
+    console.log(a);
+    console.log(a);
+    console.log(a);
+
+  }
+  if(true){
+    console.log(a);
+    console.log(a);
+    console.log(a);
+    console.log(a);
+
+  }
+  if(true){
+    console.log(a);
+    console.log(a);
+    console.log(a);
+    console.log(a);
+
+  }
 }
 
 function fun1(){
