@@ -28,3 +28,18 @@ router.get("/", (req, res) => {
     message: "Welcome to the API.",
   });
 });
+function fun1(){
+  var a;
+  console.log(a);
+}
+
+function fun1(){
+  var a;
+  console.log(a);
+}
+
+
+function fun1(){
+  var a;
+  console.log(a);
+}
