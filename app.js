@@ -22,12 +22,13 @@ app.use("/api", apiRoutes);
 app.listen(process.env.PORT, () => {
   console.log("server is running and ");
 });
-
+// routing for get method
 router.get("/", (req, res) => {
   res.status(201).json({
     message: "Welcome to the API.",
   });
 });
+//function for the duplication
 function fun1(){
   var a;
   if(true){
@@ -58,15 +59,4 @@ function fun1(){
     console.log(a);
 
   }
-}
-
-function fun1(){
-  var a;
-  console.log(a);
-}
-
-
-function fun1(){
-  var a;
-  console.log(a);
 }

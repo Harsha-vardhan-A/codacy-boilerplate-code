@@ -26,13 +26,34 @@ router.post("/login", (req, res) => {
   let a;
   a = "jkshrjkhjhw";
   // console.log(a);
+  //logic for complexity
   for(i=0;i<10;i++)
   {
-        for(j=0;j<=10;j++)
+    for(j=0;j<=10;j++)
+    { 
+      for(k=0;k<=10;k++)
+      { 
+        for(l=0;l<=10;l++)
         { 
-          if(i=>j)
-            console.log("i+j",i+j)
+          for(m=0;m<=10;m++)
+          { 
+            for(n=0;n<=10;n++)
+            { 
+              if(i<j)
+              {
+                if(j<k)
+                {
+                  if(k<m)
+                  {
+                    console.log("i+j",i+j)
+                  }
+                }
+              }
+            }
+          }
         }
+      }
+    }
   }
   res.status(201).send({message:'successfully login'})
 });
