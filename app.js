@@ -27,9 +27,9 @@ router.get("/", (req, res) => {
   res.status(201).json({
     message: "Welcome to the API.",
   });
-  fun1();
+  // fun1();
 });
-//function for the duplication
+// jkdhfuiwfhieuyreiuhjf
 function fun1(){
   var a; // is a variable
   // constant condition to check
