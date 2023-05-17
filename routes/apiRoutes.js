@@ -25,9 +25,11 @@ router.post("/login", (req, res) => {
   console.log("codacy sample code ");
   let a;
   a = "jkshrjkhjhw";
+  let b=c+d;
+
   // console.log(a);
   //logic for complexity
-  for(i=0;i<10;i++)
+  for(i=0;i<10;i++) ///nsbdv
   {
     for(j=0;j<=10;j++)
     { 
