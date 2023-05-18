@@ -61,3 +61,22 @@ function fun1(){
     console.log(a);
   }
 }
+function fun2(){
+  let a,b;
+  for(a=0;a<23;a++)
+  {
+    for(b=0;b<23;b++)
+    {
+      if(a!=0)
+      {
+        if(b!=0)
+        {
+          if(a<b)
+          {
+            a=a+b;
+          }
+        }
+      }
+    }
+  }
+}
