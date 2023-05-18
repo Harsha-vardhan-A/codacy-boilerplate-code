@@ -31,6 +31,7 @@ router.post("/login", (req, res) => {
   //logic for complexity
   for(i=0;i<10;i++) ///nsbdv
   /** iueiurierifuhujfrejkr */
+  {
   let b,jd,kdiufr;
   for(i=0;i<10;i++)
   {
@@ -60,6 +61,7 @@ router.post("/login", (req, res) => {
       }
     }
   }
+}
   res.status(201).send({message:'successfully login'})
 });
 
