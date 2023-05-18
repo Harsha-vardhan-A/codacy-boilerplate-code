@@ -25,7 +25,11 @@ router.post("/login", (req, res) => {
   console.log("codacy sample code ");
   let a;
   a = "jkshrjkhjhw";
+  let b=c+d;
+
   // console.log(a);
+  //logic for complexity
+  for(i=0;i<10;i++) ///nsbdv
   /** iueiurierifuhujfrejkr */
   let b,jd,kdiufr;
   for(i=0;i<10;i++)
@@ -63,7 +67,7 @@ router.post("/login", (req, res) => {
   console.log("logging");
   console.log("you are login is successfull");
   console.log("codacy sample code ");
-  console.log("you are login is successfull");
+  console.log("you are login is successfull");conflict
   console.log("codacy sample code ");
   let a;
   a = "jkshrjkhjhw";
